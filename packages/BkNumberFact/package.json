@@ -1,0 +1,13 @@
+{
+    "name": "@benjaminkent/bk-number-fact",
+    "version": "0.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Benjamin Jehl",
+    "license": "MIT",
+    "description": "Component that allows a user to get a mathematical or trivia fact about their favorite number",
+    "dependencies": {
+        "@benjaminkent/bk-button": "^0.0.0"
+    }
+}
