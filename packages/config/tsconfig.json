@@ -1,0 +1,19 @@
+// Shared TS configuration that all packages extend from
+// DO NOT PUT FILE PATH REFERENCES HERE! They must be declared in the
+// package-specific tsconfig because they're relative
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+        "strict": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "sourceMap": true
+    }
+}

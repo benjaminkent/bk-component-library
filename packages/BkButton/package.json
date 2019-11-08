@@ -1,0 +1,10 @@
+{
+    "name": "@benjaminkent/bk-button",
+    "version": "0.0.0",
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Benjamin Jehl",
+    "license": "MIT",
+    "description": "Basic button"
+}
